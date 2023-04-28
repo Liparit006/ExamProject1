@@ -1,0 +1,122 @@
+.search-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .search-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+  
+  .search-results {
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .search-results p {
+    font-size:20.8px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+  
+  .search-form input[type="text"] {
+    font-size: 24px;
+    padding: 8px 16px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    margin-right: 16px;
+    width: 320px;
+  }
+  
+  .search-form input[type="text"]:focus {
+    outline: none;
+    border-color: #0066ff;
+  }
+  
+  .search-form button[type="submit"] {
+    font-size: 1.5rem;
+    background-color: #0066ff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .search-form button[type="submit"]:hover {
+    background-color: #0047b3;
+  }
+  
+  .news-articles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  
+  .news-article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 32px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .news-article:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .news-article img {
+    width: 40%;
+    height: auto;
+    margin-right: 32px;
+    border-radius: 4px;
+  }
+  
+  .news-article-content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  
+  .news-article h2 {
+    font-size: 28.8px;
+    margin-bottom: 16px;
+  }
+  
+  .news-article p {
+    font-size: 19.2px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+  
+  .news-article a {
+    font-size: 19.2;
+    background-color: #0066ff;
+    color: #fff;
+    padding:8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+  }
+  
+  .news-article a:hover {
+    background-color: #0047b3;
+  }
+  

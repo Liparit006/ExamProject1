@@ -1,0 +1,13 @@
+#country {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-left: 1rem;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  

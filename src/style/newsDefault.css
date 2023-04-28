@@ -1,0 +1,49 @@
+.main {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.main > div {
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+
+.main h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.main p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.main a {
+  display: inline-block;
+  color: #2196f3;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.main a:hover {
+  color: #4aacfc;
+  text-decoration:underline;
+}
+.pagination-container{
+  width: 80%;
+  height: 10%;
+  text-align: center;
+  margin: 0px auto;
+}
